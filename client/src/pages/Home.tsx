@@ -61,7 +61,7 @@ export default function Home() {
               transition={{ delay: 0.5, type: "spring" }}
               className="inline-block px-4 py-1 mb-4 rounded-full bg-secondary/20 text-yellow-700 font-semibold text-sm border border-secondary/30"
             >
-              🎉 Celebrating 17 Years of Excellence
+              🎉 It's 12th February
             </motion.div>
             <h1 className="text-6xl md:text-8xl font-display font-bold leading-tight mb-6">
               Sri <br/>
@@ -73,7 +73,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed">
-              To a graceful dancer, a fierce athlete, and a brilliant mind. May your 17th year be as extraordinary as you are.
+              To a graceful dancer, a fierce athlete, and a brilliant mind. May your year be as extraordinary as you are.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <button 
@@ -276,7 +276,7 @@ export default function Home() {
 
       <footer className="py-8 text-center text-muted-foreground bg-white border-t border-gray-100">
         <p className="font-script text-2xl tracking-wide">Sri Manasvini</p>
-        <p className="text-sm mt-2">Celebrating 17 Beautiful Years</p>
+        <p className="text-sm mt-2">Celebrating Beautiful Years</p>
       </footer>
     </div>
   );

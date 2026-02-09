@@ -9,7 +9,6 @@ const links = [
   { href: "#dancer", label: "The Dancer" },
   { href: "#athlete", label: "The Athlete" },
   { href: "#genius", label: "The Genius" },
-  { href: "#wishes", label: "Wishes" },
 ];
 
 export function Navigation() {
@@ -47,7 +46,7 @@ export function Navigation() {
             className="text-2xl font-bold font-display cursor-pointer text-gradient"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            She Turns 17
+            Sri Manasvini
           </div>
 
           {/* Desktop Menu */}
@@ -62,12 +61,6 @@ export function Navigation() {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full" />
               </button>
             ))}
-            <button 
-              onClick={() => scrollToSection("#wishes")}
-              className="px-5 py-2 rounded-full bg-primary text-primary-foreground font-semibold shadow-lg shadow-primary/30 hover:shadow-xl hover:-translate-y-0.5 transition-all"
-            >
-              Send Love
-            </button>
           </div>
 
           {/* Mobile Toggle */}
