@@ -64,9 +64,9 @@ export default function Home() {
               🎉 Celebrating 17 Years of Excellence
             </motion.div>
             <h1 className="text-6xl md:text-8xl font-display font-bold leading-tight mb-6">
-              Happy <br/>
+              Sri <br/>
               <span className="text-primary relative">
-                Birthday
+                Manasvini
                 <svg className="absolute w-full h-3 -bottom-1 left-0 text-secondary" viewBox="0 0 100 10" preserveAspectRatio="none">
                   <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="3" fill="none" />
                 </svg>
@@ -77,10 +77,10 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <button 
-                onClick={() => document.getElementById('wishes')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
                 className="px-8 py-4 rounded-full bg-primary text-white font-bold text-lg shadow-lg shadow-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all flex items-center justify-center gap-2"
               >
-                Make a Wish <Heart className="fill-white w-5 h-5" />
+                Explore Journey <Star className="fill-white w-5 h-5" />
               </button>
             </div>
           </motion.div>
@@ -274,20 +274,9 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* WISHES SECTION */}
-      <Section id="wishes" className="bg-gradient-to-b from-transparent to-pink-50 pb-32">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-6xl mb-4 font-display">Send Your <span className="text-primary">Love</span></h2>
-          <p className="text-muted-foreground text-lg">Leave a message for her to read on her special day</p>
-        </div>
-        
-        <WishForm />
-        <WishesList />
-      </Section>
-
       <footer className="py-8 text-center text-muted-foreground bg-white border-t border-gray-100">
-        <p className="font-script text-2xl">Happy 17th Birthday!</p>
-        <p className="text-sm mt-2">Made with ❤️ for a special friend</p>
+        <p className="font-script text-2xl tracking-wide">Sri Manasvini</p>
+        <p className="text-sm mt-2">Celebrating 17 Beautiful Years</p>
       </footer>
     </div>
   );
